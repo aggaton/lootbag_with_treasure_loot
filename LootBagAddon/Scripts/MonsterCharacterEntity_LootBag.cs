@@ -10,10 +10,6 @@ namespace MultiplayerARPG
         protected void OnAwake()
         {
             onReceivedDamage += OnReceivedDamage;
-            // if (isLootable)
-            // {
-            //     SpawnLootBag();
-            // }
         }
 
         /// <summary>
